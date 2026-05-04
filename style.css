@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #60c098 0%, #269247 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #127051;
+    box-shadow: 0 0 0 3px rgba(39, 120, 122, 0.2);
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #1d9654, #1f8b1f);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    transition: transform 0.1s, opacity 0.2s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #a0e7c0, #61c577);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    transition: transform 0.1s, opacity 0.2s;
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.message-box {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    display: none;
+}
+
+.msg-error {
+    background-color: #eeb0b0;
+    color: #040a05;
+    border: 1px solid #f7f1f1;
+}
+
+.msg-success {
+    background-color: #dcfce7;
+    color: #166534;
+    border: 1px solid #bbf7d0;
+}
+
+.navbar {
+    background-color: #6dff6d;
+    padding: 20px;
+    width: 100%;
+}
+
+
